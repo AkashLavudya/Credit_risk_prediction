@@ -253,32 +253,23 @@ if st.button("🚀 Predict Credit Risk", use_container_width=True):
     st.progress(confidence / 100)
 
     if prediction == 1:
+    st.success("✅ LOW CREDIT RISK")
 
-        st.markdown("""
-        <div class="success-card">
-        <h2>🟢 LOW CREDIT RISK</h2>
-
-        <h4>Recommendation</h4>
-
-        <p>✔ Loan can be approved.</p>
-
-        </div>
-        """, unsafe_allow_html=True)
+    st.info("""
+        Recommendation
+        
+        ✔ Loan can be approved.
+            """)
 
     else:
-
-        st.markdown("""
-        <div class="danger-card">
-        <h2>🔴 HIGH CREDIT RISK</h2>
-
-        <h4>Recommendation</h4>
-
-        <p>⚠ Manual verification required before approval.</p>
-
-        </div>
-        """, unsafe_allow_html=True)
-
-    st.markdown("---")
+        st.error("🔴 HIGH CREDIT RISK")
+    
+        st.warning("""
+    Recommendation
+    
+    ⚠ Manual verification required.
+        """)
+        st.markdown("---")
 
     st.subheader("Prediction Summary")
 
