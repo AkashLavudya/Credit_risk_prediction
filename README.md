@@ -1,3 +1,4 @@
+
 # 💳 Credit Risk Prediction System
 
 An end-to-end Machine Learning application that predicts whether a loan applicant is **Low Risk** or **High Risk** based on customer financial and demographic information. The project uses a **Logistic Regression** model trained on the German Credit Dataset and provides an interactive interface built with **Streamlit** for real-time predictions.
@@ -135,3 +136,4 @@ LinkedIn: *(Add your LinkedIn profile here)*
 ## 📄 License
 
 This project is intended for educational and portfolio purposes.
+
