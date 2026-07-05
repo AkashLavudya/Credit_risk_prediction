@@ -16,6 +16,12 @@ An end-to-end Machine Learning application that predicts whether a loan applican
 
 ---
 
+## 🌐 Live Demo
+
+**🔗 Streamlit App:** https://akashlavudya-credit-risk-prediction-app-6sjgij.streamlit.app/
+
+**💻 GitHub Repository:** https://github.com/AkashLavudya/Credit_risk_prediction
+
 ## 🖥️ Demo
 
 Run the application locally:
