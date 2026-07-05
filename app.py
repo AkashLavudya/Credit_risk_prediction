@@ -253,21 +253,21 @@ if st.button("🚀 Predict Credit Risk", use_container_width=True):
     st.progress(confidence / 100)
 
     if prediction == 1:
-    st.success("✅ LOW CREDIT RISK")
+        st.success("✅ LOW CREDIT RISK")
 
-    st.info("""
-        Recommendation
+        st.info("""
+            Recommendation
         
-        ✔ Loan can be approved.
-            """)
+            ✔ Loan can be approved.
+        """)
 
     else:
         st.error("🔴 HIGH CREDIT RISK")
     
         st.warning("""
-    Recommendation
+            Recommendation
     
-    ⚠ Manual verification required.
+            ⚠ Manual verification required.
         """)
         st.markdown("---")
 
